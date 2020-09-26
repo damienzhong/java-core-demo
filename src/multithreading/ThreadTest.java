@@ -11,5 +11,6 @@ public class ThreadTest extends Thread {
 
     public static void main(String[] args) {
         new ThreadTest().start();
+        new ThreadTest().start();
     }
 }
