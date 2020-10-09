@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="windows sale test">
-      <change afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/SaleThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/WindowsSaleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/WindowsSaleTest.java" afterDir="false" />
+    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="implements runnable">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +50,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.WindowsSaleTest">
-    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.AnnotationTest" />
+  <component name="RunManager" selected="Application.BankTest">
+    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BankTest" />
       <module name="java-core-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankTest" />
         <item itemvalue="Application.WindowsSaleTest" />
         <item itemvalue="Application.WindowsTest" />
         <item itemvalue="Application.ThreadExer" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.AnnotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +154,10 @@
       <workItem from="1601131848473" duration="3000" />
       <workItem from="1601131860528" duration="2194000" />
       <workItem from="1601215905240" duration="1989000" />
-      <workItem from="1601305042480" duration="817000" />
+      <workItem from="1601305042480" duration="951000" />
+      <workItem from="1601388136703" duration="2157000" />
+      <workItem from="1602165126015" duration="609000" />
+      <workItem from="1602254730542" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601218739934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implements runnable">
+      <created>1601305916382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601305916382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,32 +225,49 @@
     <MESSAGE value="add ThreadTest" />
     <MESSAGE value="add Thread exercise" />
     <MESSAGE value="windows sale test" />
-    <option name="LAST_COMMIT_MESSAGE" value="windows sale test" />
+    <MESSAGE value="implements runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="implements runnable" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1601305184725">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1602255218265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601305184725" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1601305493579">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602255218265" />
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1602256018356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601305493579" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1601305493579">
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602256018356" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1602256018356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601305493579" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1601305493579">
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602256018356" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1602256018356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601305493579" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1601305493579">
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602256018356" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1602256018356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601305493579" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601218742027">
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602256018356" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602255634570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601218742027" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602255634570" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1602255634570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602255634570" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1602255634570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602255634570" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1602255634570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602255634570" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601305919199">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601305919199" />
   </component>
 </project>
