@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="exercise">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/CallableTest.java" afterDir="false" />
+    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="Callable test">
+      <change afterPath="$PROJECT_DIR$/file/text0/Abstract2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/FileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +50,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/file/text0" />
   </component>
-  <component name="RunManager" selected="Application.CallableTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java-core-demo\file\text0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FileTest">
     <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankTest" />
       <module name="java-core-demo" />
@@ -77,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadExer" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileTest" />
       <module name="java-core-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,26 +123,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.BankTest" />
         <item itemvalue="Application.WindowsSaleTest" />
         <item itemvalue="Application.WindowsTest" />
-        <item itemvalue="Application.ThreadExer" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +165,9 @@
       <workItem from="1601388136703" duration="2157000" />
       <workItem from="1602165126015" duration="609000" />
       <workItem from="1602254730542" duration="1493000" />
-      <workItem from="1602389505902" duration="321000" />
+      <workItem from="1602389505902" duration="741000" />
+      <workItem from="1602424954416" duration="605000" />
+      <workItem from="1602599400549" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -211,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602256330838</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Callable test">
+      <created>1602389873614</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602389873614</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,29 +251,30 @@
     <MESSAGE value="windows sale test" />
     <MESSAGE value="implements runnable" />
     <MESSAGE value="exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise" />
+    <MESSAGE value="Callable test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Callable test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1602389584187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602389584187" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1602256353574">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602602124845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1602256353574">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602602124845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1602256353574">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602602124845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1602256353574">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602602124845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602256353574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,9 +291,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602256333167">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602389875133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602256333167" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602389875133" />
   </component>
 </project>
