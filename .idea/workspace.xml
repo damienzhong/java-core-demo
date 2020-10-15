@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="Callable test">
-      <change afterPath="$PROJECT_DIR$/file/text0/Abstract2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/CopyFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <recent name="D:\workspace\java-core-demo\file\text0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileTest">
+  <component name="RunManager" selected="Application.CopyFileTest">
     <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankTest" />
       <module name="java-core-demo" />
@@ -77,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.CopyFileTest" />
+      <module name="java-core-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,37 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.WindowsTest" />
-      <module name="java-core-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFileTest" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.BankTest" />
         <item itemvalue="Application.WindowsSaleTest" />
-        <item itemvalue="Application.WindowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +169,7 @@
       <workItem from="1602389505902" duration="741000" />
       <workItem from="1602424954416" duration="605000" />
       <workItem from="1602599400549" duration="2798000" />
+      <workItem from="1602772517936" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -259,22 +261,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602389584187" />
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602602124845">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602774568236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
-    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602602124845">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602774568236" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602774568236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
-    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602602124845">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602774568236" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602774568236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
-    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602602124845">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602774568236" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602774568236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602602124845" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602774568236" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602256353574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -295,5 +297,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602389875133" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602774518839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602774518839" />
   </component>
 </project>
