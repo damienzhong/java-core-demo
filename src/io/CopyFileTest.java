@@ -6,7 +6,39 @@ public class CopyFileTest {
     public static void main(String[] args) throws IOException {
 //        writeTextFile(new File("origin.txt"));
 //        readTestFile(new File("origin.txt"));
-        copyTextFile(new File("origin.txt"),new File("target.txt"));
+//        copyTextFile(new File("origin.txt"),new File("target.txt"));
+
+        copyImgFile(new File("origin.jpg"),new File("target.jpg"));
+    }
+
+    /**
+     * 复制图片
+     * @param origin
+     * @param target
+     * @throws IOException
+     */
+    public static void copyImgFile(File origin, File target) throws IOException {
+        if (!origin.exists()) {
+            origin.createNewFile();
+        }
+
+        FileInputStream fileInputStream = new FileInputStream(origin);
+        BufferedInputStream bis = new BufferedInputStream(fileInputStream);
+
+        if (!target.exists()) {
+            target.createNewFile();
+        }
+        FileOutputStream fileOutputStream = new FileOutputStream(target);
+        BufferedOutputStream bos = new BufferedOutputStream(fileOutputStream);
+
+
+        byte[] bytes = new byte[fileInputStream.available()];
+        while (bis.read(bytes)!=-1){
+            bos.write(bytes);
+        }
+
+        bos.close();
+        bis.close();
     }
 
     /**
@@ -21,6 +53,8 @@ public class CopyFileTest {
         }
 
         String originContent = readTestFile(origin);
+        System.out.println(originContent);
+        System.out.println(originContent.length());
         writeTextFile(target,originContent);
     }
 
