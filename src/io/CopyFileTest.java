@@ -31,10 +31,11 @@ public class CopyFileTest {
         FileOutputStream fileOutputStream = new FileOutputStream(target);
         BufferedOutputStream bos = new BufferedOutputStream(fileOutputStream);
 
-
-        byte[] bytes = new byte[fileInputStream.available()];
-        while (bis.read(bytes)!=-1){
-            bos.write(bytes);
+//        byte[] bytes = new byte[fileInputStream.available()];
+        byte[] bytes = new byte[1024];
+        int length = 0;
+        while ((length = bis.read(bytes))!=-1){
+            bos.write(bytes,0,length);
         }
 
         bos.close();

@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="copy text file">
-      <change afterPath="$PROJECT_DIR$/origin.jpg" afterDir="false" />
+    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="copy image file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-core-demo/io/CopyFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-core-demo/io/CopyFileTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/io/CopyFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/CopyFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1602424954416" duration="605000" />
       <workItem from="1602599400549" duration="2798000" />
       <workItem from="1602772517936" duration="2333000" />
-      <workItem from="1602858910574" duration="407000" />
+      <workItem from="1602858910574" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602774675589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="copy image file">
+      <created>1602859356390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602859356390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,29 +271,30 @@
     <MESSAGE value="exercise" />
     <MESSAGE value="Callable test" />
     <MESSAGE value="copy text file" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy text file" />
+    <MESSAGE value="copy image file" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy image file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1602389584187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602389584187" />
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602774870048">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602859498878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602774870048" />
-    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602774870048">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602859498878" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602859498876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602774870048" />
-    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602774870048">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602859498876" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602859498876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602774870048" />
-    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602774870048">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602859498876" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602859498878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602774870048" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602859498878" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602256353574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,10 +311,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602774677778">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602859361802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602774677778" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602859361802" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602774518839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
