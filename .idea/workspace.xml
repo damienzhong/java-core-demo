@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="copy image file">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/CountDownLatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-core-demo/io/CopyFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-core-demo/io/CopyFileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/CopyFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/CopyFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +40,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hpDe1GHmOaxZLqwn3MiKv9hDcP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -59,7 +61,7 @@
       <recent name="D:\workspace\java-core-demo\file\text0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyFileTest">
+  <component name="RunManager" selected="Application.CountDownLatchTest">
     <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankTest" />
       <module name="java-core-demo" />
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.FileTest" />
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.CountDownLatchTest" />
       <module name="java-core-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsSaleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.WindowsSaleTest" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileTest" />
       <module name="java-core-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.CopyFileTest" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.BankTest" />
-        <item itemvalue="Application.WindowsSaleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,9 @@
       <workItem from="1602424954416" duration="605000" />
       <workItem from="1602599400549" duration="2798000" />
       <workItem from="1602772517936" duration="2333000" />
-      <workItem from="1602858910574" duration="611000" />
+      <workItem from="1602858910574" duration="733000" />
+      <workItem from="1603003421247" duration="593000" />
+      <workItem from="1604820605515" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -243,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602859356390</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="copy image file">
+      <created>1602859569393</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602859569393</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +273,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update project framework" />
     <MESSAGE value="add author name" />
     <MESSAGE value="add ThreadTest" />
@@ -275,26 +287,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="copy image file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1602389584187">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1604820751271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602389584187" />
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1602859498878">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604820751271" />
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604820651706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602859498878" />
-    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1602859498876">
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1604820651706" />
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1604821429623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602859498876" />
-    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1602859498876">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1604821429623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602859498876" />
-    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1602859498878">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1604821429623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602859498878" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1604821429623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602256353574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -311,10 +327,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602859361802">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602859577275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602859361802" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602859577275" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602774518839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
