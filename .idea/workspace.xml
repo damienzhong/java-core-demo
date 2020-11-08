@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="copy image file">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/CountDownLatchTest.java" afterDir="false" />
+    <list default="true" id="a73cc973-b97a-47e9-b71d-30d792d8af6d" name="Default Changelist" comment="闭锁统计所有线程耗时">
+      <change afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/ABCIterateThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/TestABCIterate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/TestABCIterate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/CountDownLatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/CountDownLatchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/CountDownLatchThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-core-demo/multithreading/CountDownLatchThread.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +65,7 @@
       <recent name="D:\workspace\java-core-demo\file\text0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
-    <configuration name="BankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.BankTest" />
-      <module name="java-core-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestABCIterate">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.CallableTest" />
       <module name="java-core-demo" />
@@ -127,24 +118,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="TestABCIterate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.TestABCIterate" />
+      <module name="java-core-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestABCIterate" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.CopyFileTest" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.CallableTest" />
-        <item itemvalue="Application.BankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,10 @@
       <workItem from="1602772517936" duration="2333000" />
       <workItem from="1602858910574" duration="733000" />
       <workItem from="1603003421247" duration="593000" />
-      <workItem from="1604820605515" duration="868000" />
+      <workItem from="1604820605515" duration="1586000" />
+      <workItem from="1604824943007" duration="1783000" />
+      <workItem from="1604826746253" duration="1795000" />
+      <workItem from="1604828563584" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="update project framework">
       <created>1600699808943</created>
@@ -254,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602859569393</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="闭锁统计所有线程耗时">
+      <created>1604821588133</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604821588133</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,53 +300,54 @@
     <MESSAGE value="Callable test" />
     <MESSAGE value="copy text file" />
     <MESSAGE value="copy image file" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy image file" />
+    <MESSAGE value="闭锁统计所有线程耗时" />
+    <option name="LAST_COMMIT_MESSAGE" value="闭锁统计所有线程耗时" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1604820751271">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1604825151306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604820751271" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604825151306" />
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604820651706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1604820651706" />
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1604821429623">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1604828836244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
-    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1604821429623">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604828836244" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1604828836244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
-    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1604821429623">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604828836244" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1604828836244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
-    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1604821429623">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604828836244" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1604828836244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604821429623" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602256353574">
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604828836244" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604827379149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1602256353574">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604827379149" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1604827379148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1602256353574">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604827379148" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1604827379148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1602256353574">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604827379148" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1604827379148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602256353574" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602859577275">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604827379148" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604821590514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602859577275" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604821590514" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602774518839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
